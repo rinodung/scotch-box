@@ -96,7 +96,7 @@ So that's why I decided to build a Vagrant LAMP Box. The box is prepackaged and 
 * Download and Install [VirtualBox][4]
 * Clone the Scotch Box [GitHub Repository](https://github.com/scotch-io/scotch-box)
 * Run ``` vagrant up ```
-* Access Your Project at  [http://192.168.33.10/][14]
+* Access Your Project at  [http://ipconfig/][14]
 
 ## Basic Vagrant Commands
 
@@ -126,7 +126,7 @@ vagrant ssh
 ## Database Access
 
 ### MySQL 
-
+mysql -h localhost -u root -p root
 - Hostname: localhost or 127.0.0.1
 - Username: root
 - Password: root
