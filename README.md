@@ -95,8 +95,9 @@ So that's why I decided to build a Vagrant LAMP Box. The box is prepackaged and 
 * Download and Install [Vagrant][3]
 * Download and Install [VirtualBox][4]
 * Clone the Scotch Box [GitHub Repository](https://github.com/scotch-io/scotch-box)
+* Rename Vagrantfile-sample to Vagrantfile with proper configuration.
 * Run ``` vagrant up ```
-* Access Your Project at  [http://ipconfig/][14]
+* Access Your Project at  [http://vm-ipconfig/][14]
 
 ## Basic Vagrant Commands
 
